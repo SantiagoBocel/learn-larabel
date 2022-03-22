@@ -4,4 +4,4 @@ _Estas instrucciones te permitirán obtener una copia del proyecto en funcionami
 ##Requisitos 📏
 * PHP 8.0.2
 * mysql 10.5.9
-* Composer [enlace](https://getcomposer.org/download/)
+* [Composer](https://getcomposer.org/download/)
