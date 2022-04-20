@@ -25,10 +25,10 @@
             </div>
 
             <div class="col-md-3 d-flex justify-content-end">
-                <form action="{{ route('todos-destroy',[$todo->id])}}" method="post">
+                <form action="{{ route('todos-destroy',[$todo->id]) }}" method="post">
                     @method('delete')
                     @csrf
-                    <button type="button" class="btn btn-danger btn-sm">Eliminar</button>
+                    <button class="btn btn-danger btn-sm">Eliminar</button>
                 </form>
             </div>
         </div>
